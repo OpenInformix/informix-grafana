@@ -1,0 +1,35 @@
+{
+  "name": "Informix Time Series 0.3",
+  "id": "Informix_0.3",
+  "type": "datasource",
+
+  "partials": {
+   "config": "data/plugins/Informix_0.3/partials/config.html"
+  },
+
+  "metrics": true,
+  "annotations": false,
+
+  "info": {
+    "description": "Informix Time Series 0.3 Datasource",
+    "author": {
+      "name": "Alexander Koerner",
+      "url": "http://www.twitter.com/AlexKoeMuc"
+    },
+    "logos": {
+      "small": "img/InformixLogo.png",
+      "large": "img/InformixLogo.png"
+    },
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/grafana/simple-json-datasource"},
+      {"name": "MIT License", "url": "https://github.com/grafana/simple-json-datasource/blob/master/LICENSE"}
+    ],
+    "version": "0.3",
+    "updated": "2018-08-27"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
